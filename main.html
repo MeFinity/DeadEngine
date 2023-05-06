@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>DeadEngine</title>
+  <link rel="icon" href="logo.png">
+  <link rel="stylesheet" href="main.css">
+  <script src="main.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="title" content="DeadEngine">
+  <meta name="description"
+   content="The wild west version of The Life Engine organism editor">
+ </head>
+
+ <body>
+  <canvas id="editor"></canvas><br>
+
+  <label for="rows">Rows:</label><input id="rows" type="number" min="1" value="15">
+  <label for="cols">Columns:</label><input id="cols" type="number" min="1" value="15">
+   <button id="apply">Apply</button><br>
+
+  <label><input type="radio" name="dot-color" value="#DEB14D">Mouth</label>
+  <label><input type="radio" name="dot-color" value="#F82380">Killer</label>
+  <label><input type="radio" name="dot-color" value="#15DE59">Producer</label>
+  <label><input type="radio" name="dot-color" value="#7230DB">Armor</label>
+  <label><input type="radio" name="dot-color" value="#60D4FF">Mover</label>
+  <label><input type="radio" name="dot-color" value="#B6C1EA">Eye</label>
+
+  <button id="save">Save as JSON</button>
+  <input type="file" id="load">
+ </body>
+</html>
